@@ -98,36 +98,6 @@ ul {
 }
 
 
-.container {
-  text-align: center;
-}
-
-.buttonbox {
-  border: none;
-  color: white;
-  background-color: #c3aed6;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 20px;
-  margin: 4px 2px;
-  cursor: pointer;
-  border-radius: 5px;
-}
-
-
-
-
-ul {
-  list-style-type: none;
-}
-
-body {
-  font-family: Verdana, sans-serif;
-}
-
-
 .month {
   padding: 70px 25px;
   width: 100%;
