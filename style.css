@@ -3,13 +3,16 @@
 }
 
 body {
-<<<<<<< HEAD
+
   width: 100vw;
+  padding-right: 20vw;
+  padding-left: 20vw;
+  background-color: #f6f6f6;
   font-family: Verdana, sans-serif;
-=======
-    width: 100vw;
->>>>>>> b3567ae583d749cf426c83bd10c2362267ae75c7
+
+
 }
+
 
 h1 {
     font-size: 5vw;
@@ -17,7 +20,11 @@ h1 {
     color: #8675A9; 
 }
 
-<<<<<<< HEAD
+h2 {
+  font-size: 2vw;
+    text-align: center;
+    color: #8675A9; 
+}
 .overdue {
   color: red;
 }
@@ -89,26 +96,12 @@ h1 {
 ul {
   list-style-type: none;
 }
-=======
-.border {
-    width: 100px;
-    border: 2px #709FB0;
-    border-radius: 10%;
-}
 
-ul {
-  list-style-type: none;
-}
-
-body {
-  font-family: Verdana, sans-serif;
-}
->>>>>>> b3567ae583d749cf426c83bd10c2362267ae75c7
 
 .month {
   padding: 70px 25px;
   width: 100%;
-  background: #1abc9c;
+  background: #c3aed6;
   text-align: center;
 }
 
@@ -165,7 +158,7 @@ body {
 
 .days li .active {
   padding: 5px;
-  background: #1abc9c;
+  background: #c3aed6;
   color: white !important;
 }
 
