@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+}
+
+h1 {
+    font-size: 5vw;
+    text-align: center;
+    color: #8675A9; 
+}
+
+
+
