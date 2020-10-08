@@ -3,7 +3,10 @@
 }
 
 body {
-  width: 100vw;
+  width: 95vw;
+  padding-right: 20vw;
+  padding-left: 20vw;
+  background-color: #f6f6f6;
   font-family: Verdana, sans-serif;
 }
 
@@ -13,6 +16,11 @@ h1 {
   color: #8675a9;
 }
 
+h2 {
+  font-size: 2vw;
+  text-align: center;
+  color: #8675a9;
+}
 .overdue {
   color: red;
 }
@@ -88,7 +96,7 @@ ul {
 .month {
   padding: 70px 25px;
   width: 100%;
-  background: #1abc9c;
+  background: #c3aed6;
   text-align: center;
 }
 
@@ -145,6 +153,6 @@ ul {
 
 .days li .active {
   padding: 5px;
-  background: #1abc9c;
+  background: #c3aed6;
   color: white !important;
 }
