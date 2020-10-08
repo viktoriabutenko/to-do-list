@@ -1,32 +1,30 @@
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 body {
-  width: 100vw;
+    width: 100vw;
 }
 
 h1 {
-  font-size: 5vw;
-  text-align: center;
-  color: #8675a9;
+    font-size: 5vw;
+    text-align: center;
+    color: #8675A9; 
 }
 
-<<<<<<< HEAD
-.frame {
-    width: 50px;
+.border {
+    width: 100px;
     border: 2px #709FB0;
     border-radius: 10%;
 }
 
-=======
 ul {
   list-style-type: none;
 }
+
 body {
   font-family: Verdana, sans-serif;
 }
->>>>>>> 24970359c2c1fa1c85dcb0ebb680c382fe77f272
 
 .month {
   padding: 70px 25px;
@@ -91,3 +89,5 @@ body {
   background: #1abc9c;
   color: white !important;
 }
+
+
