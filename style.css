@@ -3,10 +3,14 @@
 }
 
 body {
+
   width: 100vw;
   padding-right: 20vw;
   padding-left: 20vw;
   background-color: #f6f6f6;
+  font-family: Verdana, sans-serif;
+
+
 }
 
 
@@ -20,8 +24,79 @@ h2 {
   font-size: 2vw;
     text-align: center;
     color: #8675A9; 
-
 }
+.overdue {
+  color: red;
+}
+
+.done {
+  text-decoration-line: line-through;
+}
+
+.border {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.border .task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 3px solid #c3aed6;
+  padding: 5px;
+  width: 600px;
+  border-radius: 20px;
+  font-size: 20px;
+  margin-bottom: 1px;
+}
+
+.task-item {
+  margin-right: 250px;
+}
+
+/*** ADD NEW TASK ***/
+
+.add-new-task {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.add-new-task input {
+  padding: 18px;
+}
+
+.searchbox,
+.datebox {
+  margin-right: 10px;
+  border: 3px solid;
+  padding: 20px;
+  border-radius: 10px;
+  border-color: #c3aed6;
+  cursor: pointer;
+  font-size: 20px;
+  width: 238px;
+}
+
+.buttonbox {
+  border: none;
+  padding: 20px;
+  color: white;
+  text-decoration: none;
+  background-color: #c3aed6;
+  border-radius: 10px;
+  border-color: #c3aed6;
+  cursor: pointer;
+  font-size: 20px;
+  width: 100px;
+}
+
+/*** CALENDAR ***/
+ul {
+  list-style-type: none;
+}
+
 
 .container {
   text-align: center;
