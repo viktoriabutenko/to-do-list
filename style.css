@@ -12,5 +12,11 @@ h1 {
     color: #8675A9; 
 }
 
+.frame {
+    width: 50px;
+    border: 2px #709FB0;
+    border-radius: 10%;
+}
+
 
 
