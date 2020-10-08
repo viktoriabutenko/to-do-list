@@ -1,18 +1,23 @@
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 body {
+<<<<<<< HEAD
   width: 100vw;
   font-family: Verdana, sans-serif;
+=======
+    width: 100vw;
+>>>>>>> b3567ae583d749cf426c83bd10c2362267ae75c7
 }
 
 h1 {
-  font-size: 5vw;
-  text-align: center;
-  color: #8675a9;
+    font-size: 5vw;
+    text-align: center;
+    color: #8675A9; 
 }
 
+<<<<<<< HEAD
 .overdue {
   color: red;
 }
@@ -84,6 +89,21 @@ h1 {
 ul {
   list-style-type: none;
 }
+=======
+.border {
+    width: 100px;
+    border: 2px #709FB0;
+    border-radius: 10%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+body {
+  font-family: Verdana, sans-serif;
+}
+>>>>>>> b3567ae583d749cf426c83bd10c2362267ae75c7
 
 .month {
   padding: 70px 25px;
@@ -148,3 +168,5 @@ ul {
   background: #1abc9c;
   color: white !important;
 }
+
+
