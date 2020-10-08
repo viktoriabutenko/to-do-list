@@ -156,3 +156,18 @@ ul {
   background: #c3aed6;
   color: white !important;
 }
+
+path {
+  fill: white;
+}
+path:hover {
+  animation-name: path;
+  animation-duration: 200ms;
+  animation-fill-mode: forwards;
+}
+
+@keyframes path {
+  100% {
+    fill: purple;
+  }
+}
