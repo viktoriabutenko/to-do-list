@@ -97,6 +97,10 @@ ul {
   list-style-type: none;
 }
 
+.calendar {
+  margin-bottom: 15%;
+}
+
 
 .month {
   padding: 70px 25px;
@@ -162,4 +166,45 @@ ul {
   color: white !important;
 }
 
+.heading {
+  display: flex;
+  justify-content: center;
+}
+
+/* ANIMATION */
+.svg {
+  display: block;
+  width: 90px;
+  margin-left: 20px;
+}
+
+.svg .check {
+  stroke: #8675A9; 
+  stroke: #8675A9; 
+  fill: none;
+  stroke-width: 12;
+  stroke-dasharray: 400;
+stroke-dashoffset: 400;
+  animation: check 1s linear forwards;
+}
+
+.svg .box {
+  stroke: #8675A9; 
+  stroke: #8675A9; 
+  stroke-width: 12;
+  fill: none;
+  stroke-dasharray: 400;
+stroke-dashoffset: 400;
+animation: draw 1s linear forwards;
+}
+
+@keyframes draw {
+0% { stroke-dashoffset: -400; }
+  100% { stroke-dashoffset: 400; }
+}
+  
+@keyframes check {
+0% { stroke-dashoffset: -400; }
+  100% { stroke-dashoffset: 0; }
+}
 
